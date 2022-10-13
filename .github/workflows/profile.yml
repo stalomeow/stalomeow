@@ -34,10 +34,8 @@ jobs:
           plugin_languages_details: lines, percentage
           plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 30
-          plugin_stargazers: yes
-          plugin_stargazers_charts_type: chartist
           config_padding: 0, 8 + 11%
-          config_order: base.header, base.activity+community, languages, stargazers
+          config_order: base.header, base.activity+community, languages
           
       - name: right profile 
         uses: lowlighter/metrics@latest
@@ -50,15 +48,12 @@ jobs:
           template: classic
           base: ""
           config_timezone: Asia/Shanghai
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: no
           plugin_achievements: yes
           plugin_achievements_threshold: C
           plugin_achievements_limit: 8
           plugin_achievements_display: detailed
           config_padding: 0, 8 + 11%
-          config_order: habits, achievements
+          config_order: achievements
 
       # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
       # - name: generate snake
