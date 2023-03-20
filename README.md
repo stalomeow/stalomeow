@@ -1,10 +1,12 @@
 <h2 align="center">Hi 👋, Stalo here.</h2>
 
+<!--
 <h5 align="center">
   <a href="https://jin-yuhan.github.io/">blog</a>
   &emsp;•&emsp;
   <a href="https://space.bilibili.com/456366858">bilibili</a>
 </h5>
+-->
 
 <p align="center">
   <a href="#">
