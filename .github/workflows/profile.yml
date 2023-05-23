@@ -2,7 +2,7 @@ name: Metrics
 
 on:
   # Schedule daily updates
-  schedule: [{cron: "0 0/12 * * *"}]
+  schedule: [{cron: "0 0/24 * * *"}]
   # (optional) Run workflow manually
   workflow_dispatch:
   # (optional) Run workflow when pushing on master/main
@@ -21,7 +21,7 @@ jobs:
           filename: github-metrics-left.svg
           
           # Options
-          user: Jin-Yuhan
+          user: stalomeow
           template: classic
           base: header, activity, community
           config_timezone: Asia/Shanghai
@@ -30,7 +30,7 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
           plugin_languages_ignored: html, css
-          plugin_languages_skipped: jin-yuhan.github.io, WebAssetStorage
+          # plugin_languages_skipped: jin-yuhan.github.io, WebAssetStorage
           plugin_languages_details: lines, percentage
           plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 30
@@ -44,7 +44,7 @@ jobs:
           filename: github-metrics-right.svg
           
           # Options
-          user: Jin-Yuhan
+          user: stalomeow
           template: classic
           base: ""
           config_timezone: Asia/Shanghai
