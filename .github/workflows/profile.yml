@@ -33,8 +33,12 @@ jobs:
           plugin_languages_details: lines, percentage
           plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 30
+          plugin_anilist: yes
+          plugin_anilist_user: Stalo
+          plugin_anilist_sections: characters
+          plugin_anilist_limit_characters: 24
           config_padding: 0, 8 + 11%
-          config_order: base.header, base.activity+community, languages
+          config_order: base.header, base.activity+community, languages, anilist
           
       - name: right profile 
         uses: lowlighter/metrics@master # lowlighter/metrics@latest
@@ -47,12 +51,14 @@ jobs:
           template: classic
           base: ""
           config_timezone: Asia/Shanghai
+          plugin_stars: yes
+          plugin_stars_limit: 2
           plugin_achievements: yes
           plugin_achievements_threshold: C
-          plugin_achievements_limit: 8
+          plugin_achievements_limit: 10
           plugin_achievements_display: detailed
           config_padding: 0, 8 + 11%
-          config_order: achievements
+          config_order: stars, achievements
 
       # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
       # - name: generate snake
