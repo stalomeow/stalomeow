@@ -36,7 +36,7 @@ jobs:
           plugin_anilist: yes
           plugin_anilist_user: Stalo
           plugin_anilist_sections: characters
-          plugin_anilist_limit_characters: 24
+          plugin_anilist_limit_characters: 22
           config_padding: 0, 8 + 11%
           config_order: base.header, base.activity+community, languages, anilist
           
@@ -52,10 +52,10 @@ jobs:
           base: ""
           config_timezone: Asia/Shanghai
           plugin_stars: yes
-          plugin_stars_limit: 2
+          plugin_stars_limit: 3
           plugin_achievements: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_limit: 10
+          plugin_achievements_threshold: X
+          plugin_achievements_limit: 8
           plugin_achievements_display: detailed
           config_padding: 0, 8 + 11%
           config_order: stars, achievements
