@@ -30,7 +30,6 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
           plugin_languages_ignored: html, css
-          # plugin_languages_skipped: jin-yuhan.github.io, WebAssetStorage
           plugin_languages_details: lines, percentage
           plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 30
@@ -52,8 +51,11 @@ jobs:
           plugin_achievements_threshold: C
           plugin_achievements_limit: 8
           plugin_achievements_display: detailed
+          plugin_anilist: yes
+          plugin_anilist_sections: characters
+          plugin_anilist_limit_characters: 24
           config_padding: 0, 8 + 11%
-          config_order: achievements
+          config_order: achievements, anilist
 
       # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
       # - name: generate snake
