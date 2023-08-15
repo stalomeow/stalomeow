@@ -52,6 +52,7 @@ jobs:
           plugin_achievements_limit: 8
           plugin_achievements_display: detailed
           plugin_anilist: yes
+          plugin_anilist_user: Stalo
           plugin_anilist_sections: characters
           plugin_anilist_limit_characters: 24
           config_padding: 0, 8 + 11%
