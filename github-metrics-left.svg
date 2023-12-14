@@ -69,7 +69,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            311 Commits
+                            312 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -148,7 +148,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 6.24mb of code in 2355 edited files across 295 commits</small>
+                <small>estimation from 6.24mb of code in 2356 edited files across 296 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
@@ -173,7 +173,6 @@
                                 C#
                             </div>
                             <small>
-                                <div>73.5k lines</div>
                                 <div>85.82%</div>
                             </small>
                         </div>
@@ -185,7 +184,6 @@
                                 HLSL
                             </div>
                             <small>
-                                <div>2.23k lines</div>
                                 <div>3.4%</div>
                             </small>
                         </div>
@@ -197,7 +195,6 @@
                                 GLSL
                             </div>
                             <small>
-                                <div>1.30k lines</div>
                                 <div>1.65%</div>
                             </small>
                         </div>
@@ -209,7 +206,6 @@
                                 Go
                             </div>
                             <small>
-                                <div>1.02k lines</div>
                                 <div>0.95%</div>
                             </small>
                         </div>
@@ -223,7 +219,6 @@
                                 Dart
                             </div>
                             <small>
-                                <div>4.98k lines</div>
                                 <div>4.38%</div>
                             </small>
                         </div>
@@ -235,7 +230,6 @@
                                 Python
                             </div>
                             <small>
-                                <div>1.43k lines</div>
                                 <div>1.86%</div>
                             </small>
                         </div>
@@ -247,7 +241,6 @@
                                 C++
                             </div>
                             <small>
-                                <div>2.70k lines</div>
                                 <div>1.24%</div>
                             </small>
                         </div>
@@ -259,7 +252,6 @@
                                 TypeScript
                             </div>
                             <small>
-                                <div>632 lines</div>
                                 <div>0.69%</div>
                             </small>
                         </div>
