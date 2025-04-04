@@ -15,11 +15,11 @@ jobs:
       contents: write
     steps:
       - name: left profile 
-        uses: lowlighter/metrics@latest
+        uses: stalomeow/metrics@projects-v2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: github-metrics-left.svg
-          
+
           # Options
           user: stalomeow
           template: classic
@@ -39,13 +39,13 @@ jobs:
           # plugin_anilist_limit_characters: 22
           config_padding: 0, 8 + 11%
           config_order: base.header, base.activity+community, languages #, anilist
-          
+
       - name: right profile 
-        uses: lowlighter/metrics@latest
+        uses: stalomeow/metrics@projects-v2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: github-metrics-right.svg
-          
+
           # Options
           user: stalomeow
           template: classic
@@ -59,22 +59,3 @@ jobs:
           # plugin_stars_limit: 2
           config_padding: 0, 8 + 11%
           config_order: achievements #, stars
-
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      # - name: generate snake
-      #   uses: Platane/snk/svg-only@v2
-      #   with:
-      #     github_user_name: ${{ github.repository_owner }}
-      #     outputs: |
-      #       dist/github-contribution-grid-snake.svg
-      #       dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      # - name: push snake
-      #   uses: crazy-max/ghaction-github-pages@v2.6.0
-      #   with:
-      #     target_branch: output
-      #     build_dir: dist
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
